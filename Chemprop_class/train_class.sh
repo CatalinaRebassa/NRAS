@@ -1,5 +1,5 @@
 chemprop_train \
-    --data_path ../Data/pIC50_NRAS.csv \
+    --data_path ../Data/Dataset_1_class.csv \
     --dataset_type classification \
     --save_dir test_checkpoints_class \
     --target_columns pIC50 \

@@ -26,7 +26,7 @@
     "crossval_index_file": null,
     "crossval_index_sets": null,
     "cuda": false,
-    "data_path": "../Data/pIC50_NRAS.csv",
+    "data_path": "../Data/Dataset_1_class.csv",
     "data_weights_path": null,
     "dataset_type": "classification",
     "depth": 3,
@@ -91,8 +91,8 @@
     "reaction_mode": "reac_diff",
     "reaction_solvent": false,
     "reproducibility": {
-        "command_line": "python /Users/catalina/opt/anaconda3/envs/chemprop/bin/chemprop_train --data_path ../Data/pIC50_NRAS.csv --dataset_type classification --save_dir test_checkpoints_class --target_columns pIC50 --features_generator rdkit_2d_normalized --no_features_scaling --save_smiles_splits",
-        "time": "Thu Aug 31 10:10:47 2023"
+        "command_line": "python /Users/catalina/opt/anaconda3/bin/chemprop_train --data_path ../Data/Dataset_1_class.csv --dataset_type classification --save_dir test_checkpoints_class --target_columns pIC50 --features_generator rdkit_2d_normalized --no_features_scaling --save_smiles_splits",
+        "time": "Sat Sep  9 19:26:48 2023"
     },
     "resume_experiment": false,
     "save_dir": "test_checkpoints_class",

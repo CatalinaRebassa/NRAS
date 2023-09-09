@@ -1,5 +1,5 @@
 chemprop_train \
-    --data_path ../Data/pIC50_regression.csv \
+    --data_path ../Data/Dataset_2.csv \
     --dataset_type regression \
     --save_dir test_checkpoints_reg \
     --target_columns pIC50 \
